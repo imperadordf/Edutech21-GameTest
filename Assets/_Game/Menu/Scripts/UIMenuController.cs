@@ -14,6 +14,7 @@ namespace Game.UI.Menu
             buttonPlay?.onClick.AddListener(() =>
             {
                 onClickPlay?.Invoke();
+                buttonPlay.interactable = false;
             });
 
             buttonOptions?.onClick.AddListener(() =>

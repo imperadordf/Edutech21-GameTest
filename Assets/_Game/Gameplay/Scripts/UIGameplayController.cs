@@ -12,7 +12,8 @@ namespace Game.Gameplay
         {
             buttonReturnToMenu.onClick.AddListener(() =>
             {
-                onReturnToMenu?.Invoke();
+                buttonReturnToMenu.interactable = false;
+                onReturnToMenu?.Invoke();               
             });
         }
     }

@@ -224,8 +224,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Game.Loading.UILoadSceneController
   canvasGroup: {fileID: 8738196155101616482}
-  timeFromFadeIn: 1
-  timeFromFadeOut: 1
+  timeFromFadeIn: 0.3
+  timeFromFadeOut: 0.3
 --- !u!225 &8738196155101616482
 CanvasGroup:
   m_ObjectHideFlags: 0
