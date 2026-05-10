@@ -29,7 +29,6 @@ namespace Game.Shared.Dialogue
             uIDialogueController.ShowCurrentLine(_currentDialogue.Lines[_currentIndex]);
 
             _onFinishDialogue = onFinishCallback;
-            Debug.Log("Iniciou o Dialogo");
         }
 
         public void NextLine()
